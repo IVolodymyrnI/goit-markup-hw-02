@@ -136,8 +136,16 @@ a {
 
 
 /* Our team section */
+.our-team-section{
+    background-color: var(--secondary-pages-color);
+}
+
 .our-team-section .employee{
     line-height: 1.14;
+    background-color: var(--primary-pages-color);
+    width: 270px;
+    height: 370px;
+    text-align: center;
 }
 
 .our-team-name{
@@ -169,6 +177,12 @@ a {
 .btn:active{
     color: var(--primary-pages-color);
     background-color: var(--accent-color);
+}
+
+.project-example{
+    background-color: #eeeeee;
+    width: 370px;
+    height: 405px;
 }
 
 .project-name{
