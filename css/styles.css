@@ -31,10 +31,6 @@
     list-style-type: none;
 }
 
-a {
-    cursor: default;
-}
-
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
